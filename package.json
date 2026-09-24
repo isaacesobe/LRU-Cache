@@ -1,0 +1,11 @@
+{
+  "name": "lru-cache",
+  "version": "1.0.0",
+  "description": "LRU Cache implementation",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
