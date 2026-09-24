@@ -133,17 +133,6 @@ The test suite covers:
 - Invalid capacity
 - Numeric keys
 
-## Project Structure
-
-```text
-lru-cache/
-├── src/
-│   ├── Cache.js
-│   └── Cache.test.js
-├── package.json
-└── README.md
-```
-
 ## Design Decision
 
 A combination of a **Hash Map + Doubly Linked List** was chosen because using only an array or linked list would make finding or moving entries potentially O(n).
